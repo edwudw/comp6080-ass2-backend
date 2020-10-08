@@ -26,6 +26,8 @@ Within your `backend` folder in your project repo (i.e. the folder this `README.
 python3 run.py # This will start the server, you do this each time you want it to run
 ```
 
+Note: You must be using at least python 3.6. If using the CSE machines, just using "python3" will provide the appropriate version.
+
 ## Other notes
 
 Note: You are welcome to use `virtualenv` to isolate these dependencies to the particular project. This is not required in this course, though, and is not required.
