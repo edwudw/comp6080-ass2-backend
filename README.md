@@ -30,4 +30,5 @@ Note: You must be using at least python 3.6. If using the CSE machines, just usi
 
 ## Other notes
 
-Note: You are welcome to use `virtualenv` to isolate these dependencies to the particular project. This is not required in this course, though, and is not required.
+* You are welcome to use `virtualenv` to isolate these dependencies to the particular project. This is not required in this course, though, and is not required.
+* If you get "Address already in use" error, try changing the line `app.run(debug=True)` to `app.run(debug=True, port=XXXX)` with a random port number between 10000 and 50000. This line is in `run.py`
